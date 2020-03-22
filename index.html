@@ -1,0 +1,119 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__menu">			
+					<h1 class="title">Jane Foster</h1>
+					<nav>
+						<ul class="links">
+							<li><a href="" class="link">About</a></li>
+							<li><a href="" class="link">Works</a></li>
+							<li><a href="" class="link">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header-name">
+					<h2 class="subtitle">HELLO, I'M JANE FOSTER</h2>
+					<p class="header__about">I&nbsp;am a&nbsp;photographer and art director based in&nbsp;Paris currently having a&nbsp;great time working at&nbsp;personal portfolio. 
+					I&nbsp;also freelance for many companies on&nbsp;my&nbsp;spare time and help them create joyful digital experiences.</p>
+					<button class="button">contact me</button>
+					<button class="button button_works">view works</button>
+				</div>
+			</header>
+			<main>
+				<section class="about">
+					<div class="image-portfolio">
+						<img src="images/about.jpg"
+						srcset="images/about@2x.jpg 2x" class="image-portfolio__image">
+						<div class="image-portfolio__caption">
+							<span class="subtitle">JANE FOSTER, <span class="subtitle__small">photographer</span></span>
+						</div>
+					</div>
+					<div class="resume">
+						<div class="introduction">
+							<div class="introduction__text">
+								<h2 class="subtitle">About Me</h2>
+								<p class="introduction__paragraph">I&nbsp;am a&nbsp;photographer and art director based in&nbsp;Paris currently having a&nbsp;great time working at&nbsp;personal portfolio. I&nbsp;also freelance for many companies on&nbsp;my&nbsp;spare time and help them create joyful digital experiences and unique visual identities.</p>
+							</div>
+							<div class="resume__cv">
+								<p class="introduction__paragraph introduction__paragraph_cv">Wanna hire me&nbsp;for working on&nbsp;your company for full time or&nbsp;part time?</p>
+								<div class="introduction__download">
+									<img src="images/icon-download.png" class="introduction__icon-download">
+									<a href="" class="introduction__link">Download my CV</a>
+								</div>
+							</div>
+						</div>
+						<div class="work">
+							<div class="experience">
+								<h2 class="subtitle">work experience</h2>
+								<h3 class="experience__position">Postent, event photographer assistant Paris, France</h3>
+								<span class="experience__period">2012-2013</span>
+								<h3 class="experience__position experience__position_transport">Photof, art director Florence, Italy</h3>
+								<span class="experience__period">2013-2017</span>
+							</div>
+							<div class="experience__freelance">
+								<h3 class="experience__position experience__position_transport">Freelance photographer Self-employed</h3>
+								<span class="experience__period">2017-2019</span>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="latest-works">
+					<div class="latest-works__title">
+						<h2 class="subtitle latest-works__subtitle">my latest works</h2>
+						<span class="caption">Projects i’ve been working on.</span>
+					</div>
+					<ul class="links-works">
+						<li class="portfolio-item">
+							<img class="portfolio-item__image" src="images/work1.jpg">
+							<div class="portfolio-item__hover">
+								<h3 class="subtitle subtitle-hover">Waterfall</h3>
+								<a class="portfolio-item__link">View the project</a>
+							</div>
+						</li>
+						<li class="portfolio-item">
+							<img class="portfolio-item__image" src="images/work2.jpg">
+							<div class="portfolio-item__hover">
+								<h3 class="subtitle subtitle-hover">New york night</h3>
+								<a class="portfolio-item__link">View the project</a>
+							</div>
+						</li>
+						<li class="portfolio-item">
+							<img class="portfolio-item__image" src="images/work3.jpg">
+							<div class="portfolio-item__hover">
+								<h3 class="subtitle subtitle-hover">Fay</h3>
+								<a class="portfolio-item__link">View the project</a>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<div class="form-section">
+						<div class="caption form-section__caption">Drop me&nbsp;a&nbsp;line to&nbsp;hire me&nbsp;for freelance projects.</div>
+						<form id="form">
+							<div class="form__container">
+								<div class="form__inputs">
+									<input type="text" placeholder="Name" class="form__input form__input_name" id="name">
+									<input type="text" placeholder="Email" class="form__input form__input_email" id="email">
+									<input type="text" placeholder="Subject" class="form__input form__input_subject" id="subject">
+								</div>
+								<textarea placeholder="Message" class="form__textarea" id="message"></textarea>
+							</div>
+							<div class="form__button">
+								<button class="button button_black">Send message</button>
+							</div>
+						</form>
+					</div>
+				</section>
+			</main>
+		</div>
+		<!--<script type="text/javascript" src="script.js"></script>-->
+		<script type="text/javascript" src="script2.js"></script>
+	</body>
+	</html>
